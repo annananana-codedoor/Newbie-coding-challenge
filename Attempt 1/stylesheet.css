@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Kumbh Sans';
+    src: url('https://fonts.gstatic.com/s/kumbhsans/v5/c4mm1n92AsfhuCq6tVsagit_7KWfXA.woff2');
+}
+body {
+    width:1300px;
+
+    background-color: hsl(185, 75%, 39%); 
+
+    background-image: url('images/bg-pattern-top.svg');
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+div {
+    width: 350px;
+    margin: auto;
+    
+    background-color: white;
+    background-image: url('images/bg-pattern-card.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+
+    color: hsl(229, 23%, 23%);
+    
+    font-family: Kumbh Sans;
+    text-align: center;
+    border-radius: 20px;
+}
+img {
+    border-radius: 50px; 
+    border-style: solid; 
+    border-color: white; 
+    border-width: 5px; 
+    margin-top: 85px;
+    }
+h1 {
+    display: inline;
+    font-size: 18px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 14px;
+    color: hsl(0, 0%, 59%);
+}
+#age {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+table{
+    width: 350px;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+
+    color: hsl(0, 0%, 59%)"
+}
+tr.first {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%)
+}
